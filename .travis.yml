@@ -6,5 +6,5 @@ matrix:
      compiler:
        - gcc
      script:  
-       - gcc -o3 parking parking.c 
-       - ./parking
+       - gcc -o3 lane lane.c 
+       - ./lane
