@@ -1,0 +1,10 @@
+# Lane_Departure
+matrix:
+	  include:    
+	    - language: c  
+	      sudo: false # only for faster builds  
+	      compiler:
+	        - gcc
+	      script:  
+	        - gcc -o3 parking parking.c 
+	        - ./parking
